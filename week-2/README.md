@@ -124,5 +124,7 @@ prefect deployment run etl-gcs-to-bq-multiple-months/parameterized \
 prefect deployment run etl-web-to-gcs/parameterized \
     --params '{"color": "green", "year": 2020, "month": 11}'
 
+prefect deployment run etl_web_to_gcs/green-2020-11-github-storage
+
 prefect deployment run etl-web-to-gcs/green-2019-04-slack-notify
 ```
