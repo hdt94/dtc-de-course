@@ -76,9 +76,6 @@ prefect block register --file src/gcp_credentials_block.py
 export GCS_BUCKET=
 prefect block register --file src/gcs_bucket_block.py
 
-export SLACK_WEBHOOK=
-python src/slack_webhook_notification.py
-
 # create deployments
 python src/etl_gcs_to_bq_deployment.py
 python src/etl_web_to_gcs_deployment.py
