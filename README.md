@@ -8,3 +8,4 @@ Index:
     - [GCP + Terraform](./week-1/gcp_terraform)
 
 - [Week 2: Workflow orchestration with Prefect](./week-2)
+- [Week 3: Data warehouse with BigQuery](./week-3)
