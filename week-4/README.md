@@ -79,3 +79,10 @@ dbt build --select stg_fhv_trips+ --var 'is_test_run: false'
 
 dbt job configuration:
 - Command: `dbt build --var 'is_test_run: false'`
+
+
+## Looker Studio (Data Studio)
+
+Public dashboard: https://lookerstudio.google.com/reporting/a63a144a-99cf-40b6-aa0c-affa3334f914
+
+![https://lookerstudio.google.com/reporting/a63a144a-99cf-40b6-aa0c-affa3334f914](dashboard.png)
