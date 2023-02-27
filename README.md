@@ -10,3 +10,4 @@ Index:
 - [Week 2: Workflow orchestration with Prefect](./week-2)
 - [Week 3: Data warehouse with BigQuery](./week-3)
 - [Week 4: Analytics engineering with dbt](./week-4)
+- [Week 5: Batch Processing with Spark](./week-5)
