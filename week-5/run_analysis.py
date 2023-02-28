@@ -94,8 +94,8 @@ def read_files(spark, source_dir, sql_views=True):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--source-dir', required=True)
-    parser.add_argument('--analyze', default=False, required=False)
-    parser.add_argument('--parquet-dest-dir', default=None, required=False)
+    parser.add_argument('--analyze', default=False, action='store_true')
+    parser.add_argument('--parquet-dest-dir', default=None)
     args = parser.parse_args()
 
     spark = (

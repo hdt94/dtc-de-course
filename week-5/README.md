@@ -29,10 +29,10 @@ pip install -r run_analysis.requirements.txt
 Run script:
 ```bash
 # Analyzing datasets and saving into Parquet files
-python run_analysis.py --source-dir data/ --analyze True --parquet-dest-dir data/parquet/
+python run_analysis.py --source-dir data/ --analyze --parquet-dest-dir data/parquet/
 
 # Analyzing datasets
-python run_analysis.py --source-dir data/ --analyze True
+python run_analysis.py --source-dir data/ --analyze 
 
 # Saving into Parquet files
 python run_analysis.py --source-dir data/ --parquet-dest-dir data/parquet/
