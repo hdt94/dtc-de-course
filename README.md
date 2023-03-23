@@ -11,3 +11,4 @@ Index:
 - [Week 3: Data warehouse with BigQuery](./week-3)
 - [Week 4: Analytics engineering with dbt](./week-4)
 - [Week 5: Batch Processing with Spark](./week-5)
+- [Week 6: Stream Processing with Kafka + Spark Structured Streaming](./week-6)
